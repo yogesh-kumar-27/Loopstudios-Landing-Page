@@ -5,8 +5,9 @@
 	margin: 0;
 	padding: 0;
 	outline: none;
+	border: none;
 }
-&:root {
+:root {
 	--white: hsl(0, 0%, 100%);
 	--black: hsl(0, 0%, 0%);
 	--dark-gray: hsl(0, 0%, 55%);
