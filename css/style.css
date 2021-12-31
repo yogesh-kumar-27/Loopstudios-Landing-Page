@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,300;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,300;1,300&display=swap");
 
 * {
   box-sizing: border-box;
@@ -19,7 +19,8 @@
 }
 
 .header-wrap {
-  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.2)) ,url(../images/desktop/image-hero.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+    url(../images/desktop/image-hero.jpg);
   background-color: hsla(0, 0%, 0%, 0.5);
   background-repeat: no-repeat;
   background-position: top center;
@@ -59,7 +60,7 @@
 
 .header-title {
   border: 2px solid var(--white);
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 3rem;
   text-transform: uppercase;
   width: 550px;
@@ -70,7 +71,7 @@
   display: flex;
   justify-content: flex-end;
   width: 70%;
-  font-family: 'Alata', sans-serif;
+  font-family: "Alata", sans-serif;
   gap: 2em;
   cursor: pointer;
   z-index: 99;
@@ -117,14 +118,14 @@
 
 .section-two-content-header,
 .section-three-title {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2.2rem;
   text-transform: uppercase;
   color: var(--black);
 }
 
 .section-two-content-desc {
-  font-family: 'Alata', sans-serif;
+  font-family: "Alata", sans-serif;
   color: var(--very-dark-gray);
   font-size: 0.85rem;
   padding-top: 1em;
@@ -134,7 +135,7 @@
 .section-three-wrap {
   margin: 0 6em 6em 6em;
   position: relative;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
 }
 
@@ -206,7 +207,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  font-family: 'Alata', sans-serif;
+  font-family: "Alata", sans-serif;
   grid-gap: 0.5em;
 }
 
@@ -268,6 +269,18 @@
   }
 }
 
+.attribution {
+  background: black;
+  color: var(--dark-gray);
+  text-align: center;
+  font-size: 1rem;
+  padding: .5rem;
+
+}
+.attribution a {
+  text-decoration: none;
+  color: white;
+}
 @media screen and (max-width: 890px) {
   .desktop {
     display: none;
@@ -303,7 +316,7 @@
     left: 2em;
     transform: translateY(-50%);
 
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 1.5rem;
     text-transform: uppercase;
   }
